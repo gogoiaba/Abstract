@@ -1,0 +1,33 @@
+.banner {
+    background-color: var(--cinza);
+    height: 40dvh;
+    align-content: center;
+    text-align: center;
+}
+
+.banner__title {
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.banner__search {
+    border: solid 1px var(--preto);
+    padding: 1rem;
+    width: 45%;
+    border-radius: 4px;
+    background: url(../img/bx-right-arrow-alt.svg) no-repeat;
+    background-size: 2rem;
+    background-position: 42.3rem;
+    background-color: var(--branco);
+
+}
+
+.banner__search:hover {
+    border: solid 1.5px var(--azul);
+    /* filter: invert(30%) sepia(100%) saturate(500%) hue-rotate(180deg) brightness(90%) contrast(90%); */
+}
+
+.banner__search::placeholder {
+    font-size: 1.25rem;
+}

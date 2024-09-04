@@ -1,0 +1,55 @@
+.cabecalho {
+    background-color: var(--preto);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cabecalho__esquerda {
+    display: flex;
+    margin: 1rem 0 1rem 6rem;
+}
+
+.cabecalho__esquerda-help{
+    padding-top: 0.2rem;
+}
+
+.cabecalho h2 {
+    color: var(--branco);
+    padding: 0 1rem;
+}
+
+.cabecalho__esquerda-img {
+    height: 2.2rem;
+}
+
+.cabecalho__esquerda-help, .cabecalho__direita-submit, .cabecalho__direita-sign {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 1.5rem;
+    font-weight: 40;
+}
+
+.cabecalho__direita {
+    margin: 1rem 6rem 1rem 0;
+}
+
+.cabecalho__direita-submit{
+    padding: 0.8rem 1.5rem;
+    border: solid 1px white;
+    border-radius: 8px;
+}
+
+.cabecalho__direita-sign {
+    padding: 0.8rem 2rem;
+    background-color: var(--azul);
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+
+.cabecalho__direita-sign:hover {
+    color: var(--preto);
+    background-color: var(--branco);
+    
+}

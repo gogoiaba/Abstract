@@ -1,0 +1,37 @@
+.main__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 6em;
+    gap: 2rem
+    ;
+}
+
+.main__card-container {
+    width: 47%;
+}
+
+.container__text, h2, p {
+    font-size: 24px;
+}
+
+.container__text, p {
+    margin: 1rem 0;
+}
+
+.container__text-link, a {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--azul);
+}
+
+.main__card-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.container__icon {
+    max-height: 6.25rem;
+    margin-top: 1rem;
+}
+
